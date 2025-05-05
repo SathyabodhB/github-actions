@@ -5,5 +5,5 @@ jobs:
     showthetrigger:
         runs-on: ubuntu-latest
         steps:
-           - run: echo "This workflow was triggered by a push event ${github.event_name}"
+           - run: echo "This workflow was triggered by a push event ${{github.event_name}}"
 
